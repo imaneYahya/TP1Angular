@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple Watch",
+      "price": 12345,
+      "checked": true
+    },
+    {
+      "id": "2",
+      "name": "Apple Watch",
+      "price": 12345,
+      "checked": true
+    }
+  ]
+}
