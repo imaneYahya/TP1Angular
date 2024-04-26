@@ -2,9 +2,10 @@
   <div class="card">
     <div class="card-body">
       <div class="card-body">
-        <input type="text" [(ngModel)]="keyword">
-        <button (click)="searchProduct()" class="btn btn-outline-success">
-          <i class="bi bi-search"></i>
+
+        <input type="text" [(ngModel)]="keyword" (keyup)="searchProduct()" style="border-radius: 4px ; height: 40px">
+        <button (click)="searchProduct()" class="btn btn-outline-success" style="margin-left: 30px ; border-color: darkturquoise">
+          <i class="bi bi-search" style="color: darkturquoise" ></i>
         </button>
 
       </div>

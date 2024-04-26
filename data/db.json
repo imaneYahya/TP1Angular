@@ -10,6 +10,48 @@
       "id": "2",
       "name": "Apple Watch",
       "price": 12345,
+      "checked": false
+    },
+    {
+      "id": "3",
+      "name": "phone",
+      "price": "12000",
+      "checked": true
+    },
+    {
+      "id": "4",
+      "name": "Apple Watch",
+      "price": 12345,
+      "checked": true
+    },
+    {
+      "id": "5",
+      "name": "Apple Watch",
+      "price": 12345,
+      "checked": false
+    },
+    {
+      "id": "6",
+      "name": "phone",
+      "price": "12000",
+      "checked": true
+    },
+    {
+      "id": "7",
+      "name": "Apple Watch",
+      "price": 12345,
+      "checked": true
+    },
+    {
+      "id": "8",
+      "name": "Apple Watch",
+      "price": 12345,
+      "checked": false
+    },
+    {
+      "id": "9",
+      "name": "phone",
+      "price": "12000",
       "checked": true
     }
   ]

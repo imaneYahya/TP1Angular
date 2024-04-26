@@ -13,7 +13,7 @@ import {log} from "util";
 })
 export class ProductsComponent implements OnInit{
    public products : Array<Product> =[];
-  public keyword : String="";
+  public keyword : string="";
   constructor(private productService : ProductService) {
   }
   ngOnInit(){
@@ -21,7 +21,7 @@ export class ProductsComponent implements OnInit{
   }
   getProducts(){
 
-    this.productService.getProducts()
+    this.productService.getProducts(1, 3)
       .subscribe({
         next : data =>
         {this.products = data},
@@ -64,6 +64,11 @@ export class ProductsComponent implements OnInit{
   }
 
   searchProduct() {
+    this.productService.searchProducts(this.keyword).subscribe({
+      next : value => {
+        this.products=value;
+      }
+    })
 
   }
 }
