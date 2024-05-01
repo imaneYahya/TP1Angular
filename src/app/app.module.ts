@@ -9,6 +9,8 @@ import { ProductsComponent } from './products/products.component';
 import { NewProductComponent } from './new-product/new-product.component';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { EditProductComponent } from './edit-product/edit-product.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     HomeComponent,
     ProductsComponent,
     NewProductComponent,
+    EditProductComponent,
+    DashboardComponent,
 
 
   ],
@@ -28,7 +32,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     FormsModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+
   ],
   bootstrap: [AppComponent]
 })

@@ -1,12 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Apple Watch",
-      "price": 12345,
-      "checked": true
-    },
-    {
       "id": "2",
       "name": "Apple Watch",
       "price": 12345,
@@ -14,45 +8,39 @@
     },
     {
       "id": "3",
-      "name": "phone",
-      "price": "12000",
+      "name": "phone iphone",
+      "price": "100000",
       "checked": true
     },
     {
       "id": "4",
-      "name": "Apple Watch",
+      "name": "test1",
       "price": 12345,
       "checked": true
     },
     {
       "id": "5",
-      "name": "Apple Watch",
+      "name": "test2",
       "price": 12345,
       "checked": false
     },
     {
       "id": "6",
-      "name": "phone",
+      "name": "test3",
       "price": "12000",
       "checked": true
     },
     {
       "id": "7",
-      "name": "Apple Watch",
+      "name": "test4",
       "price": 12345,
       "checked": true
     },
     {
       "id": "8",
-      "name": "Apple Watch",
+      "name": "test5",
       "price": 12345,
       "checked": false
-    },
-    {
-      "id": "9",
-      "name": "phone",
-      "price": "12000",
-      "checked": true
     }
   ]
 }
